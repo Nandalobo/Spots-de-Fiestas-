@@ -1,0 +1,9 @@
+<?php
+       $destino= “Ma.landerosfernanda22@gmail.com”;
+       $Nombre y apellido  = $_POST[“Nombre y apellido”];
+       $Tipo de spot  = $_POST[“Tipo de spot”];
+       $Email  = $_POST[“Email”];
+       $Celular  = $_POST[“Celular”];
+       $contenido = “Nombre y apellido: ” . $Nombre y apellido . “\nTipo de spot:  ”  .  $Tipo de spot  . “\nEmail: ” . $Email  . “\nCelular: ” . $Celular;
+mail($destino,“Contacto”, $contenido);
+¿>
